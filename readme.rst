@@ -1,7 +1,7 @@
 Cypher
 ======
 
-A virtual machine configuration for the NPR News Apps team. 
+A virtual machine configuration for the NPR News Apps team.
 
 **Work in progress, still experimental**
 
@@ -40,6 +40,7 @@ Once it's up, you can run the following commands to interface with the machine:
 * ``vagrant suspend`` - put the VM to sleep (like closing the lid on a laptop).
 * ``vagrant halt`` - power down the VM completely.
 * ``vagrant up`` - power the machine on.
+* ``vagrant provision`` - Runs provisioning scripts which allows you to make simple modifications and test the results.
 * ``vagrant ssh`` - connect to the machine to run commands.
 * ``vagrant reload`` - restart the VM, re-running the Vagrantfile to update config changes.
 
